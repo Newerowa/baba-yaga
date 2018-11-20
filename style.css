@@ -15,15 +15,16 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
     
-.hero-text {
-  text-align: center;
+.hero-inner {
+  border: pink 1px solid;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+  }
 
 .button { 
   color: #FFFFFF;
